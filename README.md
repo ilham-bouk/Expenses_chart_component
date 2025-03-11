@@ -12,7 +12,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -43,14 +42,27 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- JavaScript 
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
+- Fitch data from JSON file
 
 ### What I learned
 
+This challenge provided valuable practice for my coding skills, especially in fetching JSON data and manipulating the DOM. 
+
 ### Continued development
 
-### Useful resources
+I forgot to make the active class add dynamically to the current day, and I also want to include some animation
 
+## Author
 
+- Frontend Mentor - [@ilham-bouk](https://www.frontendmentor.io/profile/ilham-bouk)
+- LinkedIn - [Ilham Bouktir](https://www.linkedin.com/in/ilham-bouktir-0b266b31b)
+
+## Acknowledgments
+
+A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+
+**Happy coding!** ☺️🚀 
