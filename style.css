@@ -25,9 +25,6 @@ body {
 main {
   width: 100%;
   max-width: 35rem;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
   margin: auto;
 }
 header, section {
