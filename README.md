@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/expenses-chart-component-solution-NoypN3LdUy)
 - Live Site URL: [Live site](https://ilham-bouk.github.io/Expenses_chart_component/)
 
 ## My process
@@ -63,6 +63,6 @@ I forgot to make the active class add dynamically to the current day, and I also
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on [my solution](https://www.frontendmentor.io/solutions/expenses-chart-component-solution-NoypN3LdUy). It definitely helps to find new ways to code and find easier solutions!
 
 **Happy coding!** ☺️🚀 
