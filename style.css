@@ -6,13 +6,11 @@
   --Cream: hsl(27, 66%, 92%);
   --Very-pale-orange: hsl(33, 100%, 98%);
 }
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: "DM Sans", serif;
   font-size: 18px;
@@ -127,7 +125,6 @@ footer a {
   color: hsl(10, 79%, 65%);
   text-decoration: none;
 }
-
 
 @media (max-width: 500px) {
   body {
