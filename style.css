@@ -1,0 +1,158 @@
+:root {
+  --Soft-red: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+  --Dark-brown: hsl(25, 47%, 15%);
+  --Medium-brown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", serif;
+  font-size: 18px;
+  background-color: var(--Cream);
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  max-width: 35rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  margin: auto;
+}
+header, section {
+  padding: 20px;
+  border-radius: 15px;
+}
+header {
+  background-color: var(--Soft-red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+header .left span {
+  font-size: 2.3rem;
+}
+
+section {
+  background-color: var(--Very-pale-orange);
+}
+h1 {
+  font-size: 2rem;
+  color: var(--Dark-brown);
+}
+.graph ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.graph li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+.graph li .amount {
+  background-color: var(--Dark-brown);
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  opacity: 0;
+}
+.graph li:hover .amount {
+  opacity: 1;
+}
+.graph li .chart {
+  width: 50px;
+  height: 40px;
+  background-color: var(--Soft-red);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.graph li .chart:hover {
+  opacity: .6;
+}
+.graph li.active .chart {
+  background-color: var(--Cyan);
+  height: 60px;
+}
+.graph li .day {
+  color: var(--Medium-brown);
+}
+.info {
+  border-top: 3px solid var(--Cream);
+  padding: 25px 0 10px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.info p {
+  color: var(--Medium-brown);
+}
+.info b {
+  color: var(--Dark-brown);
+}
+.info .left b {
+  font-size: 3rem;
+}
+.info .right {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  opacity: .8;
+  bottom: 15px;
+  right: 30px;
+}
+footer a {
+  color: hsl(10, 79%, 65%);
+  text-decoration: none;
+}
+
+
+@media (max-width: 500px) {
+  body {
+    font-size: 16px;
+  }
+  header, section {
+    padding: 20px 15px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .graph ul {
+    gap: 0px;
+  }
+  .graph li .amount {
+    font-size: 12px;
+    padding: 4px;
+  }
+  .graph li .chart {
+    width: 35px;
+  }
+  .info .left b {
+    font-size: 2.6rem;
+  }
+}
